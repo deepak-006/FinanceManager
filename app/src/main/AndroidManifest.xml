@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.first">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="FinTrack"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.First"
+        tools:targetApi="31">
+        <activity
+            android:name=".ChartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DecActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NovActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OctActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SeptActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AugActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JulyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".JuneActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AprActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FebActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MonthActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Record"
+            android:exported="false" />
+
+        <activity
+            android:name=".SetBudget"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

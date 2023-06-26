@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Jamshack</string>
+    <string name="title_activity_record">Record</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <array name="name">
+        <item>Saving Tips: Buy second-hand Books whenever it is available.</item>
+        <item>Saving Tips: Cook for yourself and rather than eating out pack your lunch.</item>
+        <item>Saving Tips: Avail Student discounts whenever it is applicable.</item>
+        <item>Saving Tips: Cut down on unnecessary spending.</item>
+        <item>Saving Tips: Do not exceed the set spending limit.</item>
+        <item>Saving Tips: Do not use credit card. Use debit, cash or mobile banking.</item>
+    </array>
+
+</resources>

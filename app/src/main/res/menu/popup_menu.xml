@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/food"
+       android:title="Food"/>
+    <item android:id="@+id/clothes"
+        android:title="Clothes"/>
+    <item android:id="@+id/entertainment"
+    android:title="Entertainment"/>
+    <item android:id="@+id/electronics"
+        android:title="Electronics"/>
+    <item android:id="@+id/transport"
+        android:title="Transport"/>
+    <item android:id="@+id/misc"
+        android:title="Miscellaneous"/>
+
+
+
+
+</menu>
